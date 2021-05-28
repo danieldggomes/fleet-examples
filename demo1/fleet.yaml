@@ -3,8 +3,8 @@
 # The default namespace to apply to resources that are namespaced
 # but do not specify a namespace.  In this example no resources
 # are configured with a namespace so this default will apply
-namespace: fleet-kustomize-example
+namespace: demo1
 
 kustomize:
   # To use a kustomization.yaml different from the one in the root folder
-  dir: 'overlays'
+  dir: 'base'
