@@ -5,6 +5,11 @@
 # are configured with a namespace so this default will apply
 namespace: demo1
 
+targetCustomizations:
+  - name: dev
+    clusterSelector:
+      matchLabels:
+        env: nginx
 kustomize:
   # To use a kustomization.yaml different from the one in the root folder
   dir: overlays/dev
