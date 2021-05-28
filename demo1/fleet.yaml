@@ -4,6 +4,6 @@ targetCustomizations:
   - name: dev
     clusterSelector:
       matchLabels:
-        env: nginx
+        app: nginx
     kustomize:
-      dir: overlays/dev
+      dir: base
