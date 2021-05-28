@@ -1,10 +1,10 @@
 bases:
   - ../../base
 
-namePrefix: prod-
+namePrefix: hom-
 
 commonLabels:
-  env: prod
+  env: hom
 
 images:
   - name: nginx:1.21
