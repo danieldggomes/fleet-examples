@@ -5,12 +5,12 @@ namePrefix: dev-
 
 commonLabels:
   env: demo1
-  owner: daniel
+  owner: danielgomes
 
 images:
   - name: nginx:1.21
     newName: nginx
-    newTag: '1.19'
+    newTag: '1.18'
 
 configMapGenerator:
   - name: app-properties
