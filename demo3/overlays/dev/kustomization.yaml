@@ -3,16 +3,16 @@ kind: Kustomization
 resources:
   - ../../base
 
-namePrefix: dev3-
+namePrefix: dev-
 
 commonLabels:
   env: demo3
   owner: danielgomes
 
 images:
-  - name: nginx:1.21
+  - name: nginx:1.20
     newName: nginx
-    newTag: '1.20'
+    newTag: '1.15'
 
 configMapGenerator:
   - name: app-properties
