@@ -1,0 +1,21 @@
+resources:
+  - deployment.yaml
+
+commonLabels:
+  owner: daniel
+
+namePrefix: dev-
+
+commonLabels:
+  env: demo1
+  path: /teste/outro
+
+images:
+  - name: nginx:1.21
+    newName: nginx
+    newTag: '1.19'
+
+configMapGenerator:
+  - name: app-properties
+    literals:
+      - APP_WELCOME=App v1
