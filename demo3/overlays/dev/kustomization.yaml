@@ -10,9 +10,9 @@ commonLabels:
   owner: danielgomes
 
 images:
-  - name: nginx:1.21
+  - name: nginx:1.15
     newName: nginx
-    newTag: '1.15'
+    newTag: '1.21'
 
 configMapGenerator:
   - name: app-properties
