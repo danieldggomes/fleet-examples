@@ -7,4 +7,4 @@ namespace: demo1
 
 kustomize:
   # To use a kustomization.yaml different from the one in the root folder
-  dir: 'base'
+  dir: 'overlays/dev'
