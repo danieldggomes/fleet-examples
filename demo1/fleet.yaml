@@ -2,8 +2,5 @@ namespace: demo1
 
 targetCustomizations:
   - name: dev
-    clusterSelector:
-      matchLabels:
-        app: nginx
     kustomize:
       dir: base
