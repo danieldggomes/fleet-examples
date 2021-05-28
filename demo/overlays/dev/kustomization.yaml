@@ -10,7 +10,7 @@ commonLabels:
 images:
   - name: nginx:1.21
     newName: nginx
-    newTag: '1.19'
+    newTag: '1.20'
 
 configMapGenerator:
   - name: app-properties
