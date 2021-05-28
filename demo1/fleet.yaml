@@ -6,4 +6,4 @@ targetCustomizations:
       matchLabels:
         env: nginx
     kustomize:
-      dir: base
+      dir: overlays/dev
