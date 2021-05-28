@@ -3,4 +3,4 @@ namespace: demo1
 targetCustomizations:
   - name: dev
     kustomize:
-      dir: base
+      dir: overlays/dev
