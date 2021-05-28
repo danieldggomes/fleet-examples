@@ -7,6 +7,6 @@ commonLabels:
   env: hom
 
 images:
-  - name: nginx:1.21
+  - name: nginx:1.18
     newName: nginx
-    newTag: '1.18'
+    newTag: '1.21'
